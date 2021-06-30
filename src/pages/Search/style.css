@@ -1,0 +1,53 @@
+.body{
+    text-align: center;
+    font-family: 'Barlow', sans-serif;
+    background-color: wheat;
+    padding-top: 65px;
+    padding-bottom: 50px;
+}
+
+h1{
+    margin-bottom: 5rem;
+}
+
+.input{
+    position: inherit;
+    width: 60%;
+    height: 2rem;
+    margin-left: 20%;
+    margin-bottom: 1rem;
+    background-color: #fff;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+    padding: 1.5rem;
+    padding-left: 1rem;
+    display: block;
+}
+
+.personagens{
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.search__card{
+    flex-direction: column;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+    margin: 1rem;
+    padding: 1rem;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.search__card p{
+    color: black;
+}
+
+.search__card img{
+    max-width: 200px;
+    height: auto;
+}

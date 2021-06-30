@@ -1,0 +1,60 @@
+.media img{
+    width:40%;
+}
+.media{
+    width: 50%;
+    display: flex;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.media p{
+    color: wheat;
+    text-align: center;
+}
+
+.media a{
+    width: 50%;
+
+}
+.footer{
+    display: inline-flex;
+    text-align: center;
+    padding: 1.5rem;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.autora{
+    display:flex;
+    align-items: center;
+    width: 50%;
+    text-align: center;
+    justify-content: center;
+}
+.autora img {
+    width: 15%;
+    height: auto;
+    border-radius: 100px;
+}
+.autora p{
+    padding-left: 1rem;
+    color: wheat;
+    font-size: 13px;
+
+}
+
+
+@media (max-width:768px){
+    .media{
+        justify-content: space-evenly;
+        align-items: flex-end;
+        flex-direction: column;
+    }
+    .autora img {
+        width: 30%;
+        display:flex;
+
+    }
+}

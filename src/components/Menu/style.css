@@ -1,0 +1,22 @@
+.menu {
+    margin: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;}
+
+.menu li {
+    list-style: none;
+}
+
+.link {
+    color: wheat;
+    text-decoration: none;
+}
+
+@media (max-width:768px){
+    .menu {
+        margin: 2rem;
+        display: flex;
+        justify-content: flex-start;
+    }
+}
