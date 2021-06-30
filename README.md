@@ -1,70 +1,36 @@
-# Getting Started with Create React App
+[![Linkedin Badge](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/larissandradee/)](https://www.linkedin.com/in/larissandradee/)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h1 align="center">
+  <img alt="project" title="project" src="src/assets/images/working.gif" width="900"/>
+</h1>
 
-## Available Scripts
+## ✨ Tecnologias
 
-In the project directory, you can run:
+Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-### `yarn start`
+- HTML
+- CSS
+- JavaScript
+- React
+- Hooks
+- Axios
+- yarn
+- Netlify
+- react-router-dom
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## 💻 Projeto
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Foi feito Navbar, Main e Footer em três páginas usando componentização e react-router-dom.
 
-### `yarn test`
+O projeto utilizou a [API randomico dos Simpsons](https://simpsons-quotes-api.herokuapp.com/quotes). 
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Na aplicação, em Search, o usuario  pode fazer uma busca para que apareça na tela apenas os personagens que ele deseja, e também pode curtir os que gostar. Essa busca é feita com uso do useState e useEffect, hooks do react. 
 
-### `yarn build`
+## 🔖 Lições aprendidas
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Neste projeto eu aprendi a usar o react-router-dom.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 💻 Subindo o Projeto
 
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+A aplicação foi hospedada no Netlify, neste [link](https://reactsimpsons.netlify.app/).
